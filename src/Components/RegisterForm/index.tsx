@@ -12,6 +12,7 @@ type InputProps = {
 export default function RegisterForm({ setShowModal }: InputProps) {
     const [formValues, setFormValues] = useState({
         email: '',
+        username: '',
         password: '',
     });
 

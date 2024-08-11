@@ -10,14 +10,19 @@ type InputProps = {
   name: string;
   label: string;
   placeholder: string;
+  onChange: Function;
+  required: boolean;
 };
 
-export default function InputField({ label, name, type, placeholder }: InputProps) {
+export default function InputField({ label, name, type, placeholder, onChange, required }: InputProps) {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
   };
+  const handleChange = (event: { target: { value: any; }; }) => {
+    onChange(name, event.target.value)
+  }
   return (
     <div className={styles.inputContainer}>
       <div className={styles.labelWrapper}>
@@ -37,6 +42,8 @@ export default function InputField({ label, name, type, placeholder }: InputProp
           name={name}
           placeholder={placeholder}
           className={styles.input}
+          onChange={handleChange}
+          required={required}
         />
         {type === "password" && (
           <button

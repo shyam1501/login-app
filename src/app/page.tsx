@@ -1,14 +1,14 @@
 'use client'
 import Image from "next/image";
 import styles from "./page.module.css";
-import Post from "../Components/Post";
+import Post from "../components/Post";
 import ellipseIcon from "../../public/Ellipse.svg";
 import ellipse2Icon from "../../public/comment.svg";
 import chatIcon from "../../public/chat.svg";
-import LoginForm from "@/Components/LoginForm";
+import LoginForm from "@/components/LoginForm";
 import { useState } from "react";
-import Modal from "../Components/Modal";
-import RegisterForm from "@/Components/RegisterForm";
+import Modal from "../components/Modal";
+import RegisterForm from "@/components/RegisterForm";
 
 
 

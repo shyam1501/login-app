@@ -53,3 +53,9 @@
     cursor: pointer;
     outline: none;
   }
+  .errorInfo {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+  }

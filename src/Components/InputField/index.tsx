@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "./inputfield.module.css";
 import eyeIcon from "../../../public/eye.svg";
 import Image from "next/image";
+import { validateEmail } from "../../utils/validator";
 
 type InputProps = {
   type: string;
@@ -16,12 +17,23 @@ type InputProps = {
 
 export default function InputField({ label, name, type, placeholder, onChange, required }: InputProps) {
   const [passwordVisible, setPasswordVisible] = useState(false);
+  const [error, setError] = useState("")
 
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
   };
   const handleChange = (event: { target: { value: any; }; }) => {
-    onChange(name, event.target.value)
+    let isValid = false
+    if (name === 'email') {
+      isValid = validateEmail(event.target.value)
+      setError(!isValid ? 'Invalid email' : "")
+    } else if (name === 'password') {
+      isValid = event.target.value.length > 7 ? true : false;
+      setError(!isValid ? 'Password must be at least 8 characters long' : "")
+    } else {
+      isValid = true
+    }
+    if (isValid) onChange(name, event.target.value)
   }
   return (
     <div className={styles.inputContainer}>
@@ -55,6 +67,7 @@ export default function InputField({ label, name, type, placeholder, onChange, r
           </button>
         )}
       </div>
+      {error && (<div className={styles.errorInfo}>{error}</div>)}
     </div>
   );
 }

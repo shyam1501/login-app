@@ -26,7 +26,6 @@ export default function LoginForm({ setShowModal }: InputProps) {
 
     const login = () => {
         console.log(formValues)
-        debugger
     }
 
     return (

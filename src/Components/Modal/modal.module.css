@@ -50,3 +50,22 @@
         transform: scale(1);
     }
 }
+
+@media (max-width: 768px) {
+    .modal {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .modal {
+        max-width: 60%;
+    }
+}
+
+/* Mobile screens (480px and below) */
+@media (max-width: 480px) {
+    .modal {
+        max-width: 90%;
+    }
+}

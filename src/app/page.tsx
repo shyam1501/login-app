@@ -1,13 +1,13 @@
 'use client'
 import styles from "./page.module.css";
-import Post from "../components/Post";
+import Post from "../Components/Post";
 import ellipseIcon from "../../public/Ellipse.svg";
 import ellipse2Icon from "../../public/comment.svg";
 import chatIcon from "../../public/chat.svg";
-import LoginForm from "../components/LoginForm";
+import LoginForm from "../Components/LoginForm";
 import { useState } from "react";
-import Modal from "../components/Modal";
-import RegisterForm from "../components/RegisterForm";
+import Modal from "../Components/Modal";
+import RegisterForm from "../Components/RegisterForm";
 
 
 

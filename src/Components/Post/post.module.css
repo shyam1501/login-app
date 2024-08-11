@@ -1,0 +1,42 @@
+.postWrap {
+    background: var(--foreground-color);
+    padding: 16px;
+    margin-top: 16px;
+}
+.titleWrap {
+    display: flex;
+}
+
+.titleTextWrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.postTextWrap {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    background: var(--background-color);
+    min-height: 78px;
+    margin-top: 16px;
+}
+.postIcon {
+    height: 44px;
+    min-width: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--foreground-color);
+    margin-right: 8px;
+}
+.commentWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments {
+    display: flex;
+    align-items: center;
+}
+

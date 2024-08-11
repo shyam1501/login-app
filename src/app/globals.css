@@ -1,0 +1,109 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --background-color: #191920;
+  --text-primary: #C5C7CA;
+  --text-secondary: #7F8084;
+  --foreground-color:#35373B;
+  --faded-color: #6B6C70;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #191920;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: var( --background-color);
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+.textLarge {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.textMedium {
+  font-size: 18px;
+  font-weight: 500;
+}
+.textMediumBold {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.textSmall {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.textXSmall {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.textPrimaryColor {
+  color: var(--text-primary);
+}
+.textSecondaryColor {
+  color: var(--text-secondary);
+}
+.fadedColor {
+  color: var((--faded-color));
+}
+
+.whiteColor {
+  color: #fff;
+}
+
+
+.mTop8 {
+  margin-top: 8px;
+}
+.mTop16 {
+  margin-top: 16px;
+}
+.mTop24 {
+  margin-top: 24px;
+}
+.cursorPointer {
+  cursor: pointer;
+}

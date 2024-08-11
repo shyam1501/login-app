@@ -1,0 +1,15 @@
+.buttonCss {
+    min-width: 143px;
+    min-height: 43px;
+    border-radius: 4px;
+    background: #4A96FF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.fullWidth {
+    width: 100%;
+}

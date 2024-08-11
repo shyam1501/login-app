@@ -11,23 +11,23 @@
 
 
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Post/post.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Post/post.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************/
-.post_postWrap__VrB4M {
+.post_postWrap__OnDPo {
     background: var(--foreground-color);
     padding: 16px;
     margin-top: 16px;
 }
-.post_titleWrap__PrvII {
+.post_titleWrap__EFmP_ {
     display: flex;
 }
 
-.post_titleTextWrap__Q1_p_ {
+.post_titleTextWrap__i3Vop {
     display: flex;
     flex-direction: column;
     margin-left: 8px;
 }
-.post_postTextWrap__kqdGZ {
+.post_postTextWrap__z_nDd {
     display: flex;
     justify-content: flex-start;
     padding: 8px;
@@ -35,7 +35,7 @@
     min-height: 78px;
     margin-top: 16px;
 }
-.post_postIcon__AFGJ1 {
+.post_postIcon__EFOUA {
     height: 44px;
     min-width: 44px;
     border-radius: 50%;
@@ -45,21 +45,21 @@
     background-color: var(--foreground-color);
     margin-right: 8px;
 }
-.post_commentWrap__1RY6Z {
+.post_commentWrap__j3z1w {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.post_comments__DXuF_ {
+.post_comments__Iu0m3 {
     display: flex;
     align-items: center;
 }
 
 
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/PrimaryButton/primarybutton.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/PrimaryButton/primarybutton.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************/
-.primarybutton_buttonCss__p___f {
+.primarybutton_buttonCss__fTOe6 {
     min-width: 143px;
     min-height: 43px;
     border-radius: 4px;
@@ -71,40 +71,40 @@
     border: none;
     cursor: pointer;
 }
-.primarybutton_fullWidth__AWOpX {
+.primarybutton_fullWidth__YUplT {
     width: 100%;
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/InputField/inputfield.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/InputField/inputfield.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
-.inputfield_inputContainer__r8cVf {
+.inputfield_inputContainer__0bGRU {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
   }
   
-  .inputfield_labelWrapper__opidQ {
+  .inputfield_labelWrapper__9PViO {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
   }
   
-  .inputfield_label__EVIpz {
+  .inputfield_label__cxjjS {
     color: var(--text-primary);
     font-size: 14px;
   }
   
-  .inputfield_link__rFxrE {
+  .inputfield_link__ulVhC {
     color: var(--text-primary);
     font-size: 14px;
     text-decoration: none;
   }
   
-  .inputfield_inputWrapper__cqu2l {
+  .inputfield_inputWrapper__jo06R {
     position: relative;
   }
   
-  .inputfield_input__773on {
+  .inputfield_input__dQk79 {
     background-color: var(--foreground-color);
     border: 1px solid var(--text-secondary);
     color: #e0e0e0;
@@ -117,11 +117,11 @@
     min-height: 43px;
   }
   
-  .inputfield_input__773on::placeholder {
+  .inputfield_input__dQk79::placeholder {
     color: var(--text-secondary);
   }
   
-  .inputfield_toggle__94FMC {
+  .inputfield_toggle__Q4NYA {
     background: none;
     border: none;
     color: var(--text-secondary);
@@ -132,30 +132,37 @@
     cursor: pointer;
     outline: none;
   }
+  .inputfield_errorInfo__FxCxo {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+  }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/LoginForm/loginform.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/LoginForm/loginform.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************/
 
 
-.loginform_headerWrap__6vSn2 {
+.loginform_headerWrap__P_Hgg {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Modal/modal.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Modal/modal.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
-.modal_modal__kny_E {
+.modal_modal__fxCNj {
     z-index: 1;
     background: var(--foreground-color);
     border-radius: 5px;
     position: relative;
-    animation: modal_animate__pFNN1 0.3s;
+    animation: modal_animate__D7QmQ 0.3s;
     padding: 32px;
     min-width: 35%;
+    max-width: 40%;
     border: 1px solid var(--text-secondary);
 }
-.modal_closeModal__QrVJh {
+.modal_closeModal__EmSb_ {
     position: absolute;
     top: 16px;
     right: 8px;
@@ -173,7 +180,7 @@
     justify-content: center;
     align-items: center;
 }
-.modal_container__SxRWb {
+.modal_container__W1NFn {
     position: fixed;
     top: 0;
     left: 0;
@@ -187,7 +194,7 @@
     background: rgba(34, 33, 33, 0.7);
 }
 
-@keyframes modal_animate__pFNN1 {
+@keyframes modal_animate__D7QmQ {
     from {
         transform: scale(0.5);
     }
@@ -197,9 +204,9 @@
     }
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/RegisterForm/register.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/RegisterForm/register.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
-.register_headerWrap__ESvuC {
+.register_headerWrap__SIp_k {
     display: flex;
     flex-direction: column;
     align-items: center;
